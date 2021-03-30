@@ -1,0 +1,62 @@
+body {
+  background: #02051B url(images/bg.jpg) center no-repeat;
+	background-size: cover; 
+}
+
+h1 {
+  color:#ffffff;
+}
+
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.nav__link {
+  margin-left: 25px;
+  margin-right: 25px;
+  color: #ffffff;
+  text-decoration: none;
+  opacity: 0.8;
+  transition: opacity 0.2s linear;
+}
+
+.stick {
+  width: 2px;
+  height: 50px;
+}
+
+.nav__link:first-child {
+  margin-left: 0;
+}
+
+.nav__link:hover {
+  opacity: 1;
+}
+
+.intro {
+  
+}

@@ -1,15 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 body {
-  background: #02051B url(images/bg.jpg) center no-repeat;
+  background: #07051B url(images/bg.jpg) center no-repeat;
 	background-size: cover; 
 }
 
 h1 {
   color:#ffffff;
+  font-family: 'Press Start 2P', cursive;
 }
 
 .container {
   width: 100%;
-  max-width: 1170px;
+  max-width: 1250px;
   margin: 0 auto;
 }
 
@@ -31,14 +33,15 @@ h1 {
 .nav {
   display: flex;
   align-items: center;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 500;
 }
 
 .nav__link {
-  margin-left: 25px;
-  margin-right: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
   color: #ffffff;
+  font-family: 'Press Start 2P', cursive;
   text-decoration: none;
   opacity: 0.8;
   transition: opacity 0.2s linear;

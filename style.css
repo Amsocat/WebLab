@@ -11,7 +11,7 @@ h1 {
 }
 
 .container {
-  width: 100%;
+  width: 95%;
   max-width: 1200px;
   margin: 0 auto;
   opacity: 100%;
@@ -65,7 +65,7 @@ h1 {
 }
 
 .info {
-  max-height: 90%;
+  max-height: 80%;
   color:#fff;
   padding: 0 30px;
   font-family: Gabriola;
@@ -73,20 +73,27 @@ h1 {
 }
 
 .ava {
-  width: 400px;
-  height: 370px;
+  max-height: 400px;
+  height: 100%;
   border-radius: 25px;
-  margin: 30px 30px;
-
+  margin: 40px 0 40px 40px;
 }
 
-@media screen and (min-device-width: 1070px) {
-  .body {
-    flex-direction: row;
+@media screen and (max-width: 1126px) {
+  .header__inner{
+    flex-direction: column;
+  }
+  .ava {
+    max-width: 420px;
   }
 }
-@media screen and (max-width: 1060px) {
-  .header__inner, .content{
+@media screen and (max-width: 970px) {
+  .content {
     flex-direction: column;
+  }
+  .ava {
+    width: 80%;
+    align-self: center;
+    margin: 40px 40px 0 40px;
   }
 }

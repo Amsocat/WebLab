@@ -125,9 +125,48 @@ body {
   padding: 0 20px;
 }
 
+.cards {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+   
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 530px;
+  background-color: rgb(22, 31, 104, 0.75);
+  border-radius: 25px;
+  margin-bottom: 40px;
+}
+
+.foto {
+  width: 100%;
+  max-width: 450px;
+  height: 100%;
+  max-height: 450px;
+  border-radius: 25px;
+  margin: 40px;
+  margin-bottom: 0;
+}
+
+.meme {
+  color: #fff;
+  font-family: 'Podkova', serif;
+  font-size: 32px;
+  margin: 30px;
+}
+
 @media only screen and (max-width: 1153px) {
   .header__inner, .content {
     flex-direction: column;
+  }
+  .nav__link {
+    max-width: 140px;
   }
   .ava {
     width: 80%;
@@ -135,8 +174,15 @@ body {
     align-self: center;
     margin: 30px 30px 0 30px;
   }
-  .nav__link {
-    max-width: 140px;
+  .card {
+    max-width: 400px;
+  }
+  .foto {
+    height: 85%;
+    max-height: 340px;
+    width: 85%;
+    margin: 30px;
+    margin-bottom: 0;
   }
 }
 @media only screen and (max-width: 970px) {
@@ -149,6 +195,12 @@ body {
   }
   .info_jr {
     max-width: 95%;
+  }
+  .card {
+    max-width: 370px;
+  }
+  .foto {
+    max-height: 310px;
   }
 }
 @media only screen and (max-width: 426px){
